@@ -1,0 +1,49 @@
+.soft-ui-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4em;
+  padding: 0.6em 1.4em;
+  border-radius: 999px;
+  border: 1px solid transparent;
+  font-family: inherit;
+  font-size: 0.95rem;
+  font-weight: 600;
+  line-height: 1.2;
+  cursor: pointer;
+  transition: transform 0.12s ease, opacity 0.12s ease, background-color 0.12s ease;
+}
+
+.soft-ui-button:active {
+  transform: translateY(1px);
+}
+
+.soft-ui-button:focus-visible {
+  outline: 2px solid var(--soft-ui-wine, #722f3e);
+  outline-offset: 2px;
+}
+
+.soft-ui-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.soft-ui-button--primary {
+  background-color: var(--soft-ui-wine, #722f3e);
+  color: var(--soft-ui-paper, #f7f5f0);
+}
+
+.soft-ui-button--primary:hover:not(:disabled) {
+  opacity: 0.92;
+}
+
+.soft-ui-button--outline {
+  background-color: transparent;
+  color: var(--soft-ui-wine, #722f3e);
+  border-color: var(--soft-ui-line, #d8d6cd);
+}
+
+.soft-ui-button--outline:hover:not(:disabled) {
+  background-color: var(--soft-ui-paper, #f7f5f0);
+  border-color: var(--soft-ui-wine, #722f3e);
+}

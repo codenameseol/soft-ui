@@ -1,0 +1,14 @@
+/**
+ * soft-ui design tokens.
+ *
+ * A small, warm palette — paper, ink, a little wine, and a quiet line
+ * color for borders. Nothing clever, just the handful of values every
+ * component in this kit shares.
+ */
+:root {
+  --soft-ui-paper: #f7f5f0;
+  --soft-ui-ink: #282823;
+  --soft-ui-wine: #722f3e;
+  --soft-ui-muted: #696860;
+  --soft-ui-line: #d8d6cd;
+}
