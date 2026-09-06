@@ -19,10 +19,6 @@ body {
 .demo-topline { display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
 .demo-kicker { color: var(--soft-ui-muted, #696860); font-size: .7rem; font-weight: 700; letter-spacing: .14em; }
 .demo-header h1 { font-family: Georgia, serif; font-size: clamp(3.5rem, 9vw, 6rem); letter-spacing: -.07em; line-height: .92; margin: 2.8rem 0 1rem; max-width: 8ch; }
-.language-switch { display: inline-flex; align-items: center; gap: .5rem; border: 1px solid var(--soft-ui-line, #d8d6cd); border-radius: 999px; background: rgba(247,245,240,.72); padding: .25rem .55rem .25rem .25rem; color: var(--soft-ui-wine, #722f3e); font-size: .72rem; cursor: pointer; }
-.language-switch canvas { width: 68px; height: 28px; display: block; }
-.language-switch:hover { border-color: var(--soft-ui-wine, #722f3e); transform: translateY(-1px); }
-
 .demo-header p {
   color: var(--soft-ui-muted, #696860);
 }

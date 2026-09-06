@@ -1,11 +1,5 @@
 # soft-ui
 
-<details open><summary>언어 전환 · Language switch</summary>
-
-한국어를 먼저 쓰고 영어를 바로 병기합니다. GitHub Markdown은 script/canvas를 실행하지 않으므로 native disclosure를 사용하며, React demo에는 실제 canvas 토글을 제공합니다. / Korean comes first with English immediately paired. GitHub Markdown cannot execute script/canvas, so the React demo provides the real canvas toggle.
-
-</details>
-
 ## 조금 더 부드러운 기본값 · Softer defaults
 
 sharp-edged defaults보다 조금 더 부드럽고 다정한 세 가지 React 컴포넌트 키트입니다.
