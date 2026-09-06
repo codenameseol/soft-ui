@@ -9,6 +9,12 @@
   --soft-ui-paper: #f7f5f0;
   --soft-ui-ink: #282823;
   --soft-ui-wine: #722f3e;
+  --soft-ui-rose: #ead6d9;
+  --soft-ui-lilac: #e4e1eb;
+  --soft-ui-sage: #dfe8dc;
   --soft-ui-muted: #696860;
   --soft-ui-line: #d8d6cd;
+  --soft-ui-radius-card: 24px;
+  --soft-ui-radius-pill: 999px;
+  --soft-ui-shadow: 0 18px 48px rgba(40, 40, 35, 0.08);
 }
